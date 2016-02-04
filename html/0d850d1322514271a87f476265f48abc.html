@@ -1,0 +1,65 @@
+      <p class="manual-section-title">Theory</p><hr>
+      <div class="manual-section-description">
+        <p>
+          In C programming, a string is essentially an array of <a href="en.wikipedia.org/wiki/ASCII">ASCII code</a> characters. Each character is stored by writing the corresponding 8-bit ASCII code of the character. So, One can initialize a string just like an array:
+        </p>
+        <p>
+          </p><pre class="prettyprint lang-c">            char str[50]={'C',' ','P','r','o','g','r','a','m'};
+          </pre>
+        <p></p>
+        <p>
+          C programming allows a convenient alternative for this:
+        </p>
+        <p>
+          </p><pre class="prettyprint lang-c">            char str[50]="C programming";
+          </pre>
+        <p></p>
+        <p>
+          As you can notice, you can put spaces in a string. The C compiler terminates every string with a null character('\0') which has an ASCII value of 0. This is done to mark the end of the string. So, the given string would be represented as:
+        </p>
+        <p>
+          </p><table border="1">
+            <tbody><tr><td>C</td><td> </td><td>P</td><td>r</td><td>o</td><td>g</td><td>r</td><td>a</td><td width="50">m</td><td>m</td><td>i</td><td>n</td><td>g</td><td>\0</td></tr>
+            <tr><td>67</td><td>32</td><td>80</td><td>114</td><td>111</td><td>103</td><td>114</td><td>97</td><td>109</td><td>109</td><td>105</td><td>110</td><td>103</td><td>0</td></tr>
+          </tbody></table><br>
+        <p></p>
+        <p>
+          Every string, thus, requires 1 extra storage space to store the NULL character. So, if you want to store a string of 20 characters then you must define an array of 21 characters. To input a string from the keyboard, you can use the scanf statement:
+        </p>
+        <p>
+          </p><pre class="prettyprint lang-c">            scanf("%s",str);
+          </pre>
+        <p></p>
+        <p>
+          This will input a string till a space or next line character is entered. Suppose you want to input a string like "Today is a sunny day.". Then you should use the gets() function which is defined in the string.h library.
+        </p>
+        <p>
+          </p><pre class="prettyprint lang-c">            gets(str);
+          </pre>
+        <p></p>
+        <p>
+          The string.h library also has many other useful functions. The strlen() is used to find the length of a string(str in this case) and return an integer.
+        </p>
+        <p>
+          </p><pre class="prettyprint lang-c">            int result=strlen(str);
+          </pre>
+        <p></p>
+        <p>
+          The variable result will get a value 13 in this case. The strcmp() function can be used to compare 2 strings(str1 and str2 in this case):
+        </p>
+        <p>
+          </p><pre class="prettyprint lang-c">            int result=strcmp(str1,str2);
+          </pre>
+        <p></p>
+        <p>
+          The strcmp() function returns 1 if the two strings are identical and 0 otherwise. The strcat() function is used to concatenate 2 string. Writing
+        </p>
+        <p>
+          </p><pre class="prettyprint lang-c">            strcmp(str1,str2);
+          </pre>
+        <p></p>
+        <p>
+          will add the contents of str2 to str1. Before writing this sentence make sure the there is enough memory allocated at str1 so as to hold both str1 and str2, and also a NULL character. Other useful string functions are listed <a href="http://en.wikipedia.org/wiki/String.h">here</a>.
+        </p>
+      </div>
+    
