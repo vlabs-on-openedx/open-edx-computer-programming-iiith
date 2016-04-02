@@ -1,1 +1,50 @@
-{"programming.jpg": {"contentType": "image/jpeg", "displayname": "programming.jpg", "locked": false, "content_son": {"category": "asset", "name": "programming.jpg", "course": "CSE02", "tag": "c4x", "org": "IIITH", "revision": null}, "filename": "/c4x/IIITH/CSE02/asset/programming.jpg", "import_path": "programming.jpg", "thumbnail_location": ["c4x", "IIITH", "CSE02", "thumbnail", "programming.jpg", null]}, "programming.png": {"contentType": "image/png", "displayname": "programming.png", "locked": false, "content_son": {"category": "asset", "name": "programming.png", "course": "CSE02", "tag": "c4x", "org": "IIITH", "revision": null}, "filename": "/c4x/IIITH/CSE02/asset/programming.png", "import_path": "programming.png", "thumbnail_location": ["c4x", "IIITH", "CSE02", "thumbnail", "programming.jpg", null]}}
+{
+    "programming.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "CSE02", 
+            "name": "programming.jpg", 
+            "org": "IIITH", 
+            "revision": null, 
+            "run": "Anytime", 
+            "tag": "c4x"
+        }, 
+        "displayname": "programming.jpg", 
+        "filename": "asset-v1:IIITH+CSE02+Anytime+type@asset+block@programming.jpg", 
+        "import_path": "programming.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "IIITH", 
+            "CSE02", 
+            "thumbnail", 
+            "programming.jpg", 
+            null
+        ]
+    }, 
+    "programming.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "CSE02", 
+            "name": "programming.png", 
+            "org": "IIITH", 
+            "revision": null, 
+            "run": "Anytime", 
+            "tag": "c4x"
+        }, 
+        "displayname": "programming.png", 
+        "filename": "asset-v1:IIITH+CSE02+Anytime+type@asset+block@programming.png", 
+        "import_path": "programming.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "IIITH", 
+            "CSE02", 
+            "thumbnail", 
+            "programming-png.jpg", 
+            null
+        ]
+    }
+}

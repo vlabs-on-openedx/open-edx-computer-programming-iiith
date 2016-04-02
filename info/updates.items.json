@@ -1,1 +1,8 @@
-[{"date": "September 24, 2015", "content": "Welcome to the Computer Programming Lab developed at IIIT Hyderabad. The interactive experiments in this lab will give the students an opportunity to learn and understand the basic concepts and constructs of computer programming.", "status": "visible", "id": 1}]
+[
+    {
+        "content": "Welcome to the Computer Programming Lab developed at IIIT Hyderabad. The interactive experiments in this lab will give the students an opportunity to learn and understand the basic concepts and constructs of computer programming.", 
+        "date": "September 24, 2015", 
+        "id": 1, 
+        "status": "visible"
+    }
+]
