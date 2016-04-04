@@ -12,9 +12,9 @@
             }
         }, 
         "display_name": "Computer Programming", 
-        "end": "2016-05-31T00:00:00Z", 
-        "enrollment_end": "2016-05-31T00:00:00Z", 
-        "enrollment_start": "2016-04-01T00:00:00Z", 
+        "end": null, 
+        "enrollment_end": null, 
+        "enrollment_start": null, 
         "is_new": true, 
         "language": "en", 
         "mobile_available": true, 
@@ -47,8 +47,8 @@
         ], 
         "xml_attributes": {
             "filename": [
-                "course/Anytime.xml", 
-                "course/Anytime.xml"
+                "course/course.xml", 
+                "course/course.xml"
             ]
         }
     }
