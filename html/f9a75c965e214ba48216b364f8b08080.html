@@ -1,8 +1,8 @@
 <style><!--
 <span class="CmCaReT" style="display:none">&#0;</span><span id="__caret">_</span><span class="CmCaReT" style="display:none">&#0;</span><span id="__caret">_</span><!--
 <span class="CmCaReT" style="display:none">&#0;</span><span id="__caret">_</span><!--
-.wrap { width: 1100px; height: 520px; padding: 0; overflow: hidden; }
-    .frame { width: 1100px; height: 604px; }
+.wrap { width:1120px; height: 520px; padding: 0; overflow: hidden; }
+    .frame { width: 1120px; height: 604px; }
     .frame {
         -ms-zoom: 0.75;
         -moz-transform: scale(0.75);
@@ -14,3 +14,23 @@
     }
 --></style>
 <div class="wrap"><iframe class="frame" src="https://cse02-iiith.vlabs.ac.in/exp5/simulation/index.html" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+
+<script>// <![CDATA[
+// ****** ALSO MODIFY THE URLS GIVEN ABOVE **************
+// ********MODIFY THIS SECTION **************************
+
+var lab_id = "CSE02"; 
+var exp_name = "Structures"
+var lab_name = " Computer Programming Lab"
+var user_id = "%%USER_ID%%"; //get the User ID as a string  
+var exp_id = "E99796"
+
+var server_url = "http://analytics-api.vlabs.ac.in:4000/"
+
+var xhttp = new XMLHttpRequest();
+var urlstr = server_url + user_id + "," + lab_id + "," + lab_name + "," + exp_id + "," + exp_name
+xhttp.open("GET", urlstr, true);
+xhttp.send();
+
+// *******DO NOT MODIFY THIS SECTION AGAIN ************
+// ]]></script>

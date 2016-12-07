@@ -1,4 +1,4 @@
-<course advanced_modules="[&quot;google-document&quot;, &quot;google-calendar&quot;]" advertised_start="Anytime" course_image="programming.jpg" display_name="Computer Programming" end="null" enrollment_end="null" enrollment_start="null" is_new="true" language="en" mobile_available="true" start="&quot;2016-04-01T00:00:00+00:00&quot;">
+<course advanced_modules="[&quot;google-document&quot;, &quot;google-calendar&quot;]" advertised_start="Anytime" course_image="IIITH-Computer Programming.JPG" display_name="Computer Programming" end="null" enrollment_end="null" enrollment_start="null" instructor_info="{&quot;instructors&quot;: []}" is_new="true" language="en" learning_info="[]" mobile_available="true" start="&quot;2016-09-29T00:00:00+00:00&quot;">
   <chapter url_name="46ddb99c33b449968c1d99919d6e4858"/>
   <chapter url_name="6346c8767f984a7eba82bcaf6960c0f7"/>
   <chapter url_name="7460e5b8e22c4ea0877da47d003583ff"/>
@@ -9,5 +9,6 @@
   <chapter url_name="38b301288201487294ce864c2bc98433"/>
   <chapter url_name="a3cf7363aa014c5394e15d3e43369568"/>
   <chapter url_name="0a640eb939a64448bd09a0ec6f970fb0"/>
+  <chapter url_name="37f8045ee515491da2952c931e8ba5c3"/>
   <wiki slug="IIITH.CSE02.Anytime"/>
 </course>

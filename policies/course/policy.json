@@ -5,7 +5,7 @@
             "google-calendar"
         ], 
         "advertised_start": "Anytime", 
-        "course_image": "programming.jpg", 
+        "course_image": "IIITH-Computer Programming.JPG", 
         "discussion_topics": {
             "General": {
                 "id": "i4x-IIITH-cse02-course-2015s1"
@@ -15,18 +15,22 @@
         "end": null, 
         "enrollment_end": null, 
         "enrollment_start": null, 
+        "instructor_info": {
+            "instructors": []
+        }, 
         "is_new": true, 
         "language": "en", 
+        "learning_info": [], 
         "mobile_available": true, 
-        "start": "2016-04-01T00:00:00Z", 
+        "start": "2016-09-29T00:00:00Z", 
         "tabs": [
             {
-                "name": "Courseware", 
-                "type": "courseware"
+                "name": "Home", 
+                "type": "course_info"
             }, 
             {
-                "name": "Course Info", 
-                "type": "course_info"
+                "name": "Course", 
+                "type": "courseware"
             }, 
             {
                 "name": "Textbooks", 
