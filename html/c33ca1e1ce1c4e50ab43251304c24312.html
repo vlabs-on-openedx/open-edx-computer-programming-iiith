@@ -1,0 +1,20 @@
+
+      <p class="manual-section-title">Theory</p><hr>
+      <div class="manual-section-description">
+        Recursion simply means applying a function as a part of the definition of that same function. Suppose we have to find the factorial of a number. The mathematical factorial function is defined as being the product of all the numbers up to and including the number, and the factorial of 1 is 1. Thinking about this, we see that another way to express this is that the factorial of N is equal to N times the factorial of (N-1).
+        <p>Thus:</p>
+        <p>1! = 1 2! = 1 x 2 = 1! x 2 3! = 1 x 2 x 3 = 2! x 3 = 6 --- --- N! = 1 x 2 x 3 x .... (N-2) x (N-1) x N = (N-1)! x N</p><br>
+        <p>So we can express this as:</p>
+        <p> factorial(n): if n == 1: return 1 else: return n * factorial(n-1)</p>
+        <p>The important thing to remember when creating a recursive function is to give an 'end-conditions' or the 'base cases'. We don't want the function to keep calling itself forever, do we? Somehow, it should know when to stop. So, we give it a base case. Like here the base case is for n=1. The key to making this work is that there must be a terminating condition such that the function branches to a non-recursive solution at some point.</p>
+        <p>Hence a feasible recursive solution will have the following two properties:</p>
+        <ol>
+          <li>
+            A simple base case (or cases), and 
+          </li>
+          <li>
+            A set of rules which reduce all other cases toward the base case.   
+          </li>
+        <!--0l-->
+      </ol></div>
+    
