@@ -1,0 +1,11 @@
+<problem display_name="Text Input" markdown="&#10;&#10;&gt;&gt;The name of the array is a pointer to which of the element of the array?&lt;&lt;&#10;&#10;= First&#10;&#10;">
+
+
+<p>The name of the array is a pointer to which of the element of the array?</p>
+
+<stringresponse answer="First" type="ci">
+  <textline label="The name of the array is a pointer to which of the element of the array?" size="20"/>
+</stringresponse>
+
+
+</problem>

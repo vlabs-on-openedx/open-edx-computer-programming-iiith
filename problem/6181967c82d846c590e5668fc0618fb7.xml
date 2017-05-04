@@ -1,79 +1,68 @@
 <problem display_name="Multiple Choice" markdown="&#10;1.   Fill in the function name in the blank so that the output of the following code snippet is &quot;YES&quot; :&#10;&#10;        void myfunction{&#10;          char word1[] = &quot;India&quot;;&#10;          char word2[] = &quot;Free Country&quot;;&#10;          word2 = ________(word2,word1);&#10;          if(strcmp(word1,word2) == 0)&#10;            printf(&quot;YES\n&quot;);&#10;          else&#10;            printf(&quot;NO\n&quot;);&#10;        }&#10;        &#10;&#10;( ) strcat&#10;( ) strlen&#10;( ) strncat&#10;(x) strcpy&#10;&#10;2.  The name of the string is a (char *) pointer to the last character in the array.&#10;  &#10;( ) True&#10;(x) False&#10;&#10;3. What will be the ouptut of the following code snippet?&#10;&#10;        char word[] = &quot;Attitude&quot;;&#10;        word[4] = '\0';&#10;        int length = strlen(word);&#10;        printf(&quot;%d\n&quot;,length);&#10;&#10;        &#10;&#10;( ) 8&#10;( ) 7&#10;(x) 4&#10;( ) 3&#10;&#10;4. What will be the ouptut of the following code snippet?&#10;&#10;        char w[] = &quot;india&quot;;&#10;              w[5] = 'n';&#10;              printf(&quot;%s\n&quot;,w);&#10;        &#10;&#10;( ) india&#10;( ) indian&#10;(x) segmentation fault&#10;( ) none of the above&#10;&#10;5.  What will the follwing function output if word is &quot;heLlO_WOrLd !&quot; ?&#10;&#10;        void func(char *word)&#10;        {&#10;          word[strlen(word)-1] = 'S';&#10;          *(word + 3) = 'd';&#10;          *(word + 5) = word[6] + 1;&#10;              printf(&quot;%s\n&quot;,word);      &#10;        }&#10;        &#10;&#10;( ) heldO_WOrLd S&#10;(x) heLdOXWOrLd S&#10;( ) heLlOXWorld !&#10;( ) heLdO_World !">
-
-<p>1.   Fill in the function name in the blank so that the output of the following code snippet is "YES" :</p>
-
-<p>        void myfunction{</p>
-<p>          char word1[] = "India";</p>
-<p>          char word2[] = "Free Country";</p>
-<p>          word2 = ________(word2,word1);</p>
-<p>          if(strcmp(word1,word2) == 0)</p>
-<p>            printf("YES\n");</p>
-<p>          else</p>
-<p>            printf("NO\n");</p>
-<p>        }</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">strcat</choice>
-    <choice correct="false">strlen</choice>
-    <choice correct="false">strncat</choice>
-    <choice correct="true">strcpy</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>2.  The name of the string is a (char *) pointer to the last character in the array.</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">True</choice>
-    <choice correct="true">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>3. What will be the ouptut of the following code snippet?</p>
-
-<p>        char word[] = "Attitude";</p>
-<p>        word[4] = '\0';</p>
-<p>        int length = strlen(word);</p>
-<p>        printf("%d\n",length);</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">8</choice>
-    <choice correct="false">7</choice>
-    <choice correct="true">4</choice>
-    <choice correct="false">3</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>4. What will be the ouptut of the following code snippet?</p>
-
-<p>        char w[] = "india";</p>
-<p>              w[5] = 'n';</p>
-<p>              printf("%s\n",w);</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">india</choice>
-    <choice correct="false">indian</choice>
-    <choice correct="true">segmentation fault</choice>
-    <choice correct="false">none of the above</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>5.  What will the follwing function output if word is "heLlO_WOrLd !" ?</p>
-
-<p>        void func(char *word)</p>
-<p>        {</p>
-<p>          word[strlen(word)-1] = 'S';</p>
-<p>          *(word + 3) = 'd';</p>
-<p>          *(word + 5) = word[6] + 1;</p>
-<p>              printf("%s\n",word);      </p>
-<p>        }</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">heldO_WOrLd S</choice>
-    <choice correct="true">heLdOXWOrLd S</choice>
-    <choice correct="false">heLlOXWorld !</choice>
-    <choice correct="false">heLdO_World !</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1.   Fill in the function name in the blank so that the output of the following code snippet is "YES" :</p>
+  <p>        void myfunction{</p>
+  <p>          char word1[] = "India";</p>
+  <p>          char word2[] = "Free Country";</p>
+  <p>          word2 = ________(word2,word1);</p>
+  <p>          if(strcmp(word1,word2) == 0)</p>
+  <p>            printf("YES\n");</p>
+  <p>          else</p>
+  <p>            printf("NO\n");</p>
+  <p>        }</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">strcat</choice>
+      <choice correct="false">strlen</choice>
+      <choice correct="false">strncat</choice>
+      <choice correct="true">strcpy</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>2.  The name of the string is a (char *) pointer to the last character in the array.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>3. What will be the ouptut of the following code snippet?</p>
+  <p>        char word[] = "Attitude";</p>
+  <p>        word[4] = '\0';</p>
+  <p>        int length = strlen(word);</p>
+  <p>        printf("%d\n",length);</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">8</choice>
+      <choice correct="false">7</choice>
+      <choice correct="true">4</choice>
+      <choice correct="false">3</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>4. What will be the ouptut of the following code snippet?</p>
+  <p>        char w[] = "india";</p>
+  <p>              w[5] = 'n';</p>
+  <p>              printf("%s\n",w);</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">india</choice>
+      <choice correct="false">indian</choice>
+      <choice correct="true">segmentation fault</choice>
+      <choice correct="false">none of the above</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>5.  What will the follwing function output if word is "heLlO_WOrLd !" ?</p>
+  <p>        void func(char *word)</p>
+  <p>        {</p>
+  <p>          word[strlen(word)-1] = 'S';</p>
+  <p>          *(word + 3) = 'd';</p>
+  <p>          *(word + 5) = word[6] + 1;</p>
+  <p>              printf("%s\n",word);      </p>
+  <p>        }</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">heldO_WOrLd S</choice>
+      <choice correct="true">heLdOXWOrLd S</choice>
+      <choice correct="false">heLlOXWorld !</choice>
+      <choice correct="false">heLdO_World !</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>
