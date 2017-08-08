@@ -1,49 +1,43 @@
 <problem display_name="Multiple Choice" markdown="1. Function prototype is required in every program&#10;( ) True&#10;(x) False&#10;&#10;Functions can return more than one value at a time&#10;( ) True&#10;(x) False&#10;&#10;What is the default return value of a function?&#10;(x) int&#10;( ) Void&#10;( ) No default return type&#10;( ) Boolean&#10;&#10;Which of the following is an invalid function prototype?&#10;( ) float fun(int aa, int bb);&#10;( ) float fun(int aa, int );&#10;( ) float fun(float , int );&#10;(x) float fun(int aa, bb);&#10;&#10;What is the return type of the function with prototype: &quot;int func(char x, float v, double t);&quot;&#10;( ) char&#10;(x) int&#10;( ) float&#10;( ) double&#10;&#10;">
-<p>1. Function prototype is required in every program</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">True</choice>
-    <choice correct="true">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Functions can return more than one value at a time</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">True</choice>
-    <choice correct="true">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>What is the default return value of a function?</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">int</choice>
-    <choice correct="false">Void</choice>
-    <choice correct="false">No default return type</choice>
-    <choice correct="false">Boolean</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Which of the following is an invalid function prototype?</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">float fun(int aa, int bb);</choice>
-    <choice correct="false">float fun(int aa, int );</choice>
-    <choice correct="false">float fun(float , int );</choice>
-    <choice correct="true">float fun(int aa, bb);</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>What is the return type of the function with prototype: "int func(char x, float v, double t);"</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">char</choice>
-    <choice correct="true">int</choice>
-    <choice correct="false">float</choice>
-    <choice correct="false">double</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1. Function prototype is required in every program</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Functions can return more than one value at a time</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>What is the default return value of a function?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">int</choice>
+      <choice correct="false">Void</choice>
+      <choice correct="false">No default return type</choice>
+      <choice correct="false">Boolean</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Which of the following is an invalid function prototype?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">float fun(int aa, int bb);</choice>
+      <choice correct="false">float fun(int aa, int );</choice>
+      <choice correct="false">float fun(float , int );</choice>
+      <choice correct="true">float fun(int aa, bb);</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>What is the return type of the function with prototype: "int func(char x, float v, double t);"</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">char</choice>
+      <choice correct="true">int</choice>
+      <choice correct="false">float</choice>
+      <choice correct="false">double</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>
