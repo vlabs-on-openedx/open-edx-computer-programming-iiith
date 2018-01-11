@@ -3,7 +3,7 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "CSE02", 
+            "course": "cse02", 
             "name": "IIITH-Computer_Programming.JPG", 
             "org": "IIIT-Hyderabad", 
             "revision": null, 
@@ -11,13 +11,13 @@
             "tag": "c4x"
         }, 
         "displayname": "IIITH-Computer Programming.JPG", 
-        "filename": "asset-v1:IIIT-Hyderabad+CSE02+Anytime+type@asset+block@IIITH-Computer_Programming.JPG", 
+        "filename": "asset-v1:IIIT-Hyderabad+cse02+Anytime+type@asset+block@IIITH-Computer_Programming.JPG", 
         "import_path": "IIITH-Computer Programming.JPG", 
         "locked": false, 
         "thumbnail_location": [
             "c4x", 
             "IIIT-Hyderabad", 
-            "CSE02", 
+            "cse02", 
             "thumbnail", 
             "IIITH-Computer_Programming-JPG.jpg", 
             null
@@ -27,7 +27,7 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "CSE02", 
+            "course": "cse02", 
             "name": "programming.jpg", 
             "org": "IIIT-Hyderabad", 
             "revision": null, 
@@ -35,13 +35,13 @@
             "tag": "c4x"
         }, 
         "displayname": "programming.jpg", 
-        "filename": "asset-v1:IIIT-Hyderabad+CSE02+Anytime+type@asset+block@programming.jpg", 
+        "filename": "asset-v1:IIIT-Hyderabad+cse02+Anytime+type@asset+block@programming.jpg", 
         "import_path": "programming.jpg", 
         "locked": false, 
         "thumbnail_location": [
             "c4x", 
             "IIIT-Hyderabad", 
-            "CSE02", 
+            "cse02", 
             "thumbnail", 
             "programming.jpg", 
             null
@@ -51,7 +51,7 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "CSE02", 
+            "course": "cse02", 
             "name": "programming.png", 
             "org": "IIIT-Hyderabad", 
             "revision": null, 
@@ -59,13 +59,13 @@
             "tag": "c4x"
         }, 
         "displayname": "programming.png", 
-        "filename": "asset-v1:IIIT-Hyderabad+CSE02+Anytime+type@asset+block@programming.png", 
+        "filename": "asset-v1:IIIT-Hyderabad+cse02+Anytime+type@asset+block@programming.png", 
         "import_path": "programming.png", 
         "locked": false, 
         "thumbnail_location": [
             "c4x", 
             "IIIT-Hyderabad", 
-            "CSE02", 
+            "cse02", 
             "thumbnail", 
             "programming-png.jpg", 
             null
