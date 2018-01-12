@@ -1,8 +1,6 @@
 <problem display_name="Text Input" markdown="&gt;&gt;A structure is a collection of variables under what name?&lt;&lt;&#10;&#10;= Single&#10;">
-<p>A structure is a collection of variables under what name?</p>
-
-<stringresponse answer="Single" type="ci">
-  <textline label="A structure is a collection of variables under what name?" size="20"/>
-</stringresponse>
-
+  <p>A structure is a collection of variables under what name?</p>
+  <stringresponse answer="Single" type="ci">
+    <textline label="A structure is a collection of variables under what name?" size="20"/>
+  </stringresponse>
 </problem>

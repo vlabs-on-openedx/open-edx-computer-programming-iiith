@@ -1,136 +1,121 @@
 <problem display_name="Multiple Choice" markdown="&gt;&gt;Evaluate 2*3+5%3.&lt;&lt;&#10;( ) 1&#10;( ) 7&#10;(x) 8&#10;( ) 2&#10;&#10;&gt;&gt;Evaluate (2*(3+5))%3.&lt;&lt;&#10;(x) 1&#10;( ) 7&#10;( ) 8&#10;( ) 4&#10;&#10;&gt;&gt;The order of evaluation of the operators in (2*(3+5))%3 is:&lt;&lt;&#10;(x) +, *, %&#10;( ) *, +, %&#10;( ) %, *, +&#10;( ) +, %, *&#10;&#10;&#10;Assume x=8.8, y=3.5 and z= -5.2 and m=4 for the following questions&#10;&#10;&#10;&gt;&gt;Calculate x%y&lt;&lt;&#10;(x) 1.8&#10;( ) 3.5&#10;( ) 0.8&#10;( ) 7&#10;&#10;&gt;&gt;Calculate x%m&lt;&lt;&#10;( ) 8&#10;( ) 4&#10;( ) 1.8&#10;(x) 0.8&#10;&#10;&gt;&gt;Calculate 7/m&lt;&lt;&#10;( ) 0&#10;(x) 1&#10;( ) 2&#10;( ) 3&#10;&#10;&gt;&gt;Calculate 2*x/(3*y)&lt;&lt;&#10;(x) 1.67&#10;( ) 2&#10;( ) 1&#10;( ) 1.5&#10;&#10;&gt;&gt;Calculate 2*x/3*y&lt;&lt;&#10;( ) 5.86&#10;(x) 20.51&#10;( ) 1.67&#10;( ) 1&#10;&#10;Assume a='E' , b='5' and c='?' are char type variables for the following questions&#10;&#10;&gt;&gt;Calculate b-2&lt;&lt;&#10;(x) 'C'&#10;( ) 'A'&#10;( ) 'c'&#10;( ) 'a'&#10;&#10;&gt;&gt;Calculate b+c&lt;&lt;&#10;(x) 't'&#10;( ) 's'&#10;( ) 'T'&#10;( ) 'r'&#10;&#10;&gt;&gt;Calculate a%c&lt;&lt;&#10;( ) 0&#10;( ) 1&#10;(x) 6&#10;( ) 9&#10;&#10;&gt;&gt;Calculate a*3&lt;&lt;&#10;( ) 0&#10;( ) 1&#10;(x) 207&#10;( ) 69&#10;&#10;&gt;&gt;Calculate a*'3'&lt;&lt;&#10;( ) 0&#10;( ) 1&#10;( ) 97&#10;(x) 3519&#10;&#10;">
-<p>Evaluate 2*3+5%3.</p>
-<multiplechoiceresponse>
-  <choicegroup label="Evaluate 2*3+5%3." type="MultipleChoice">
-    <choice correct="false">1</choice>
-    <choice correct="false">7</choice>
-    <choice correct="true">8</choice>
-    <choice correct="false">2</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Evaluate (2*(3+5))%3.</p>
-<multiplechoiceresponse>
-  <choicegroup label="Evaluate (2*(3+5))%3." type="MultipleChoice">
-    <choice correct="true">1</choice>
-    <choice correct="false">7</choice>
-    <choice correct="false">8</choice>
-    <choice correct="false">4</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>The order of evaluation of the operators in (2*(3+5))%3 is:</p>
-<multiplechoiceresponse>
-  <choicegroup label="The order of evaluation of the operators in (2*(3+5))%3 is:" type="MultipleChoice">
-    <choice correct="true">+, *, %</choice>
-    <choice correct="false">*, +, %</choice>
-    <choice correct="false">%, *, +</choice>
-    <choice correct="false">+, %, *</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Assume x=8.8, y=3.5 and z= -5.2 and m=4 for the following questions</p>
-<p>Calculate x%y</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate x%y" type="MultipleChoice">
-    <choice correct="true">1.8</choice>
-    <choice correct="false">3.5</choice>
-    <choice correct="false">0.8</choice>
-    <choice correct="false">7</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Calculate x%m</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate x%m" type="MultipleChoice">
-    <choice correct="false">8</choice>
-    <choice correct="false">4</choice>
-    <choice correct="false">1.8</choice>
-    <choice correct="true">0.8</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Calculate 7/m</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate 7/m" type="MultipleChoice">
-    <choice correct="false">0</choice>
-    <choice correct="true">1</choice>
-    <choice correct="false">2</choice>
-    <choice correct="false">3</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Calculate 2*x/(3*y)</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate 2*x/(3*y)" type="MultipleChoice">
-    <choice correct="true">1.67</choice>
-    <choice correct="false">2</choice>
-    <choice correct="false">1</choice>
-    <choice correct="false">1.5</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Calculate 2*x/3*y</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate 2*x/3*y" type="MultipleChoice">
-    <choice correct="false">5.86</choice>
-    <choice correct="true">20.51</choice>
-    <choice correct="false">1.67</choice>
-    <choice correct="false">1</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Assume a='E' , b='5' and c='?' are char type variables for the following questions</p>
-
-<p>Calculate b-2</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate b-2" type="MultipleChoice">
-    <choice correct="true">'C'</choice>
-    <choice correct="false">'A'</choice>
-    <choice correct="false">'c'</choice>
-    <choice correct="false">'a'</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Calculate b+c</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate b+c" type="MultipleChoice">
-    <choice correct="true">'t'</choice>
-    <choice correct="false">'s'</choice>
-    <choice correct="false">'T'</choice>
-    <choice correct="false">'r'</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Calculate a%c</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate a%c" type="MultipleChoice">
-    <choice correct="false">0</choice>
-    <choice correct="false">1</choice>
-    <choice correct="true">6</choice>
-    <choice correct="false">9</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Calculate a*3</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate a*3" type="MultipleChoice">
-    <choice correct="false">0</choice>
-    <choice correct="false">1</choice>
-    <choice correct="true">207</choice>
-    <choice correct="false">69</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Calculate a*'3'</p>
-<multiplechoiceresponse>
-  <choicegroup label="Calculate a*'3'" type="MultipleChoice">
-    <choice correct="false">0</choice>
-    <choice correct="false">1</choice>
-    <choice correct="false">97</choice>
-    <choice correct="true">3519</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>Evaluate 2*3+5%3.</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Evaluate 2*3+5%3." type="MultipleChoice">
+      <choice correct="false">1</choice>
+      <choice correct="false">7</choice>
+      <choice correct="true">8</choice>
+      <choice correct="false">2</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Evaluate (2*(3+5))%3.</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Evaluate (2*(3+5))%3." type="MultipleChoice">
+      <choice correct="true">1</choice>
+      <choice correct="false">7</choice>
+      <choice correct="false">8</choice>
+      <choice correct="false">4</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>The order of evaluation of the operators in (2*(3+5))%3 is:</p>
+  <multiplechoiceresponse>
+    <choicegroup label="The order of evaluation of the operators in (2*(3+5))%3 is:" type="MultipleChoice">
+      <choice correct="true">+, *, %</choice>
+      <choice correct="false">*, +, %</choice>
+      <choice correct="false">%, *, +</choice>
+      <choice correct="false">+, %, *</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Assume x=8.8, y=3.5 and z= -5.2 and m=4 for the following questions</p>
+  <p>Calculate x%y</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate x%y" type="MultipleChoice">
+      <choice correct="true">1.8</choice>
+      <choice correct="false">3.5</choice>
+      <choice correct="false">0.8</choice>
+      <choice correct="false">7</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Calculate x%m</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate x%m" type="MultipleChoice">
+      <choice correct="false">8</choice>
+      <choice correct="false">4</choice>
+      <choice correct="false">1.8</choice>
+      <choice correct="true">0.8</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Calculate 7/m</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate 7/m" type="MultipleChoice">
+      <choice correct="false">0</choice>
+      <choice correct="true">1</choice>
+      <choice correct="false">2</choice>
+      <choice correct="false">3</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Calculate 2*x/(3*y)</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate 2*x/(3*y)" type="MultipleChoice">
+      <choice correct="true">1.67</choice>
+      <choice correct="false">2</choice>
+      <choice correct="false">1</choice>
+      <choice correct="false">1.5</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Calculate 2*x/3*y</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate 2*x/3*y" type="MultipleChoice">
+      <choice correct="false">5.86</choice>
+      <choice correct="true">20.51</choice>
+      <choice correct="false">1.67</choice>
+      <choice correct="false">1</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Assume a='E' , b='5' and c='?' are char type variables for the following questions</p>
+  <p>Calculate b-2</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate b-2" type="MultipleChoice">
+      <choice correct="true">'C'</choice>
+      <choice correct="false">'A'</choice>
+      <choice correct="false">'c'</choice>
+      <choice correct="false">'a'</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Calculate b+c</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate b+c" type="MultipleChoice">
+      <choice correct="true">'t'</choice>
+      <choice correct="false">'s'</choice>
+      <choice correct="false">'T'</choice>
+      <choice correct="false">'r'</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Calculate a%c</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate a%c" type="MultipleChoice">
+      <choice correct="false">0</choice>
+      <choice correct="false">1</choice>
+      <choice correct="true">6</choice>
+      <choice correct="false">9</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Calculate a*3</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate a*3" type="MultipleChoice">
+      <choice correct="false">0</choice>
+      <choice correct="false">1</choice>
+      <choice correct="true">207</choice>
+      <choice correct="false">69</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Calculate a*'3'</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Calculate a*'3'" type="MultipleChoice">
+      <choice correct="false">0</choice>
+      <choice correct="false">1</choice>
+      <choice correct="false">97</choice>
+      <choice correct="true">3519</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>

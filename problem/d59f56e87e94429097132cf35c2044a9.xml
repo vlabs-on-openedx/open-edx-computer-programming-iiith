@@ -1,15 +1,10 @@
 <problem display_name="Text Input" markdown="&gt;&gt;1. A recursive function must necessarily make a call to ?&lt;&lt;&#10;&#10;= Itself&#10;&#10;&gt;&gt;2. What is required so that there is no infinite recursive calling of the same function.&lt;&lt;&#10;&#10;= A base case (or end-condition)">
-<p>1. A recursive function must necessarily make a call to ?</p>
-
-<stringresponse answer="Itself" type="ci">
-  <textline label="1. A recursive function must necessarily make a call to ?" size="20"/>
-</stringresponse>
-
-<p>2. What is required so that there is no infinite recursive calling of the same function.</p>
-
-<stringresponse answer="A base case (or end-condition)" type="ci">
-  <textline label="2. What is required so that there is no infinite recursive calling of the same function." size="20"/>
-</stringresponse>
-
-
+  <p>1. A recursive function must necessarily make a call to ?</p>
+  <stringresponse answer="Itself" type="ci">
+    <textline label="1. A recursive function must necessarily make a call to ?" size="20"/>
+  </stringresponse>
+  <p>2. What is required so that there is no infinite recursive calling of the same function.</p>
+  <stringresponse answer="A base case (or end-condition)" type="ci">
+    <textline label="2. What is required so that there is no infinite recursive calling of the same function." size="20"/>
+  </stringresponse>
 </problem>

@@ -1,20 +1,16 @@
 <problem display_name="Multiple Choice" markdown="&#10;1. For the function y=6, the value of area under the curve using the approximation method would be completely accurate.&#10;(x) True&#10;( ) False&#10;&#10;2.  Decreasing the length of the interval will imporve tha accuracy of the approximation.&#10;(x) True&#10;( ) False&#10;&#10;&#10;">
-
-<p>1. For the function y=6, the value of area under the curve using the approximation method would be completely accurate.</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>2.  Decreasing the length of the interval will imporve tha accuracy of the approximation.</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1. For the function y=6, the value of area under the curve using the approximation method would be completely accurate.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>2.  Decreasing the length of the interval will imporve tha accuracy of the approximation.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>

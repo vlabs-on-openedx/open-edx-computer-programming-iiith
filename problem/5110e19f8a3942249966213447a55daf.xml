@@ -1,31 +1,27 @@
 <problem display_name="Multiple Choice" markdown="1. What would be the equivalent pointer expression for referring the array element a[i][j][k][l]&#10;( ) ((((a+i)+j)+k)+l)&#10;(x) *(*(*(*(a+i)+j)+k)+l)&#10;( ) (((a+i)+j)+k+l)&#10;( ) ((a+i)+j+k+l)&#10;&#10;2. NULL pointer points to the 0th memory address:&#10;(x) True&#10;( ) False&#10;&#10;3. Pointer is a :&#10;( ) A keyword used to create variables&#10;( ) A variable that stores address of an instruction&#10;(x) A variable that stores address of other variable&#10;( ) All of the above&#10;&#10;&#10;&#10;&#10;&#10;">
-<p>1. What would be the equivalent pointer expression for referring the array element a[i][j][k][l]</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">((((a+i)+j)+k)+l)</choice>
-    <choice correct="true">*(*(*(*(a+i)+j)+k)+l)</choice>
-    <choice correct="false">(((a+i)+j)+k+l)</choice>
-    <choice correct="false">((a+i)+j+k+l)</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>2. NULL pointer points to the 0th memory address:</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>3. Pointer is a :</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">A keyword used to create variables</choice>
-    <choice correct="false">A variable that stores address of an instruction</choice>
-    <choice correct="true">A variable that stores address of other variable</choice>
-    <choice correct="false">All of the above</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1. What would be the equivalent pointer expression for referring the array element a[i][j][k][l]</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">((((a+i)+j)+k)+l)</choice>
+      <choice correct="true">*(*(*(*(a+i)+j)+k)+l)</choice>
+      <choice correct="false">(((a+i)+j)+k+l)</choice>
+      <choice correct="false">((a+i)+j+k+l)</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>2. NULL pointer points to the 0th memory address:</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>3. Pointer is a :</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">A keyword used to create variables</choice>
+      <choice correct="false">A variable that stores address of an instruction</choice>
+      <choice correct="true">A variable that stores address of other variable</choice>
+      <choice correct="false">All of the above</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>

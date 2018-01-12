@@ -1,77 +1,67 @@
 <problem display_name="Multiple Choice" markdown="1. Which statement is used in Switch to prevent fall through.&#10;(x) break&#10;( ) continue&#10;( ) exit&#10;( ) else&#10;&#10;2. Every switch construct can be replaced by a series of if-else statements&#10;(x) True&#10;( ) False&#10;&#10;3. In an if-else construct, curly braces can be ignored for the else part if the block contains only one statement&#10;(x) True&#10;( ) False&#10;&#10;4. An if-else construct can be replaced by a set of if constructs&#10;(x) True&#10;( ) False&#10;&#10;5. The default scope of the if statement is only the next statement.&#10;(x) True&#10;( ) False&#10;&#10;6. For every if block there is always a corresponding else block&#10;( ) True&#10;(x) False&#10;&#10;7. Float expressions are allowed in switch cases&#10;( ) Yes&#10;(x) No&#10;&#10;8. Switch cases works faster than equivalent if-else ladder&#10;(x) True&#10;( ) False&#10;&#10;9. The case keyword is followed by an integer or a character constant.&#10;(x) True&#10;( ) Flase">
-<p>1. Which statement is used in Switch to prevent fall through.</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">break</choice>
-    <choice correct="false">continue</choice>
-    <choice correct="false">exit</choice>
-    <choice correct="false">else</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>2. Every switch construct can be replaced by a series of if-else statements</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>3. In an if-else construct, curly braces can be ignored for the else part if the block contains only one statement</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>4. An if-else construct can be replaced by a set of if constructs</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>5. The default scope of the if statement is only the next statement.</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>6. For every if block there is always a corresponding else block</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">True</choice>
-    <choice correct="true">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>7. Float expressions are allowed in switch cases</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">Yes</choice>
-    <choice correct="true">No</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>8. Switch cases works faster than equivalent if-else ladder</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>9. The case keyword is followed by an integer or a character constant.</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">Flase</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1. Which statement is used in Switch to prevent fall through.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">break</choice>
+      <choice correct="false">continue</choice>
+      <choice correct="false">exit</choice>
+      <choice correct="false">else</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>2. Every switch construct can be replaced by a series of if-else statements</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>3. In an if-else construct, curly braces can be ignored for the else part if the block contains only one statement</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>4. An if-else construct can be replaced by a set of if constructs</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>5. The default scope of the if statement is only the next statement.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>6. For every if block there is always a corresponding else block</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>7. Float expressions are allowed in switch cases</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Yes</choice>
+      <choice correct="true">No</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>8. Switch cases works faster than equivalent if-else ladder</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>9. The case keyword is followed by an integer or a character constant.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">Flase</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>
